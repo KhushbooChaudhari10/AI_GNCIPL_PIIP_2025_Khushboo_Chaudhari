@@ -1,1 +1,92 @@
+Cybersecurity Threats Analysis (2015–2024)
+📌 Project Overview
 
+This project analyzes publicly reported global cybersecurity incidents between 2015 and 2024. The dataset provides information on attack types, targeted industries, sources of attacks, number of affected users, financial losses, and resolution times.
+
+The goal is to uncover trends, patterns, and insights that can help businesses and researchers understand the evolving cyber threat landscape.
+
+🎯 Objectives
+
+Perform Exploratory Data Analysis (EDA) on global cyber incidents.
+
+Identify most common attack types and industries targeted.
+
+Examine financial and user impact of different attacks.
+
+Study time-based trends (2015–2024).
+
+Derive data-driven recommendations for organizations.
+
+🗂️ Dataset
+
+Source: Kaggle – Global Cybersecurity Threats (2015–2024)
+
+Key Features:
+
+Year – Year of the incident
+
+Attack Type – Type of attack (e.g., Ransomware, Phishing, Malware)
+
+Target Industry – Industry impacted (Finance, Healthcare, IT, etc.)
+
+Attack Source – Who carried out the attack (Hacker groups, Nation-state actors, Insiders, etc.)
+
+Number of Affected Users – Count of users impacted
+
+Financial Loss (in Million $) – Estimated financial loss
+
+Incident Resolution Time (in Hours) – Time taken to resolve
+
+🛠️ Tech Stack
+
+Python
+
+Libraries:
+
+pandas – Data handling
+
+matplotlib & seaborn – Visualizations
+
+numpy – Numerical computations
+
+📊 Analysis Performed
+
+Univariate Analysis
+
+Distribution of financial losses, affected users, and resolution times
+
+Time-based Trends
+
+Number of incidents per year
+
+Average financial losses across years
+
+Categorical Analysis
+
+Most common attack types
+
+Top targeted industries
+
+Frequent attack sources
+
+Bivariate Analysis
+
+Financial loss vs industries
+
+Users affected vs attack type
+
+Correlation Analysis
+
+Relationship between financial loss, user impact, and resolution time
+
+🔑 Key Insights
+
+Incidents are rising steadily from 2015 to 2024, peaking around 2019–2020.
+
+Ransomware & Phishing are the top attack types globally.
+
+Finance, Healthcare, and IT industries face the most frequent and costly attacks.
+
+Hacker groups are the leading attack source, with growing nation-state involvement.
+
+Financial loss distribution is skewed: a few incidents cause massive losses, while most remain smaller in scale.
